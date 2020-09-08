@@ -1,0 +1,176 @@
+html{
+	
+	width: 100%;
+	margin: 0px;
+	padding: 0px;
+	overflow-x: hidden;
+}
+
+/* Navigation bar styles*/
+
+.nav-tabs{
+	margin: none;
+	background-color: #383838;
+	top:0px;
+}
+
+.Logo>img{
+	padding:0px;
+	margin: 0px;
+	height: 30px;
+	width: 30px;
+
+}
+
+a{
+	color: #B8B8B8;
+}
+.nav-link:hover{
+	background-color: black;
+	color:white;
+	border: none;
+}
+
+.Logo:hover{
+	background-color: #383838;
+	color: #B8B8B8;
+	transform: none;
+
+}
+
+/*cover area styles*/
+img{
+	height: 200px;
+	width: 200px;
+}
+h1{
+	text-decoration: none;
+	color: #AACCFF;
+	font-family: cursive;
+	text-align: center;
+}
+h2{
+	text-decoration: none;
+	color: #AACCFF;
+	font-family: cursive;
+	text-align: center;
+}
+ul{
+	background-color: black;
+	color:white;
+}
+.container-fluid{
+	display:grid;
+	grid-template-columns:20% 60% 20%;
+	
+	margin-left: 0px;
+	margin-right: 0px;
+	margin-top:20px;
+	padding-top: 20px;
+	
+}
+
+.list-group-flush{
+	margin-left: 0px;
+	
+}
+.list-group-item{
+background-color: black;
+margin: 0px;
+
+}
+h3,h6{
+	margin-top:20px;
+	color: #800080;
+}
+p{
+	margin: 20px;
+	color:white;
+}
+
+figure{
+	float: left;
+	margin: 10px;
+	
+}
+
+html, body { height: 100% }
+
+body {
+  background-color: black;
+}
+
+h1 {
+  text-align: center;
+}
+h4{
+	color: orange;
+}
+
+.background {
+  position: sticky;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: -1;
+}
+
+.ads{
+	width:100%;
+	margin-left: 0;
+}
+.item2 img {
+	border-radius: 90%;
+	border-color: white;
+	align-items: center;
+	
+}
+figcaption{
+	align-items: center;
+}
+.item1 img{
+	width:30px;
+	height:30px;
+	border-radius: 50%;
+}
+.item3 img{
+
+margin-right: 0px;
+height:100px;
+width: 100px;
+
+}
+.item3 h3{
+	text-decoration: none;
+	color: red;
+	font-family: fantasy;
+	text-align: center;
+}
+
+.footer_end{
+	color:white;
+	align-items: center;
+	text-align: center;
+	position: sticky;
+	margin-bottom: 0px;
+}
+.photos {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	background-color: black;
+	
+}
+.photos img{
+  height: 400px;
+  width:400px;
+  padding: 20px;
+  
+}
+.photos img:hover{
+	transform: scale(1.1);
+	transition: all 5s;
+}
+
+
